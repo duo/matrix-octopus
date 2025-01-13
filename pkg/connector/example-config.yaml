@@ -1,0 +1,9 @@
+# Displayname template for Octopus users.
+#  .Alias - The alias set by me.
+#  .Name - The username set by the user.
+#  .ID - The internal user ID of the user.
+displayname_template: '{{or .Alias .Name "Unknown user"}}'
+
+# Octopus listen address (for agent connection)
+listen_address: "0.0.0.0:20002"
+listen_secret: foobar

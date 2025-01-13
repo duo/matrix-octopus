@@ -1,0 +1,15 @@
+.idea
+
+*.yaml
+!example-config.yaml
+
+*.json
+*.db
+*.db-shm
+*.db-wal
+*.log
+*.bak
+
+vendor/
+
+/matrix-octopus
